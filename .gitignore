@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local outputs
+*.log
+*.tmp
+individual_reserving_results.xlsx
+individual_reserving_client_report.pdf
+sensitivity_analysis.csv
+
+# Confidential / raw client files
+uploads/
+client_data/
+*.xlsm
